@@ -1,10 +1,7 @@
 import React from "react"
-import styled from "styled-components"
 import { Helmet } from "react-helmet"
 
-const HomeStyle = styled.div``
-
-export default function Home() {
+export default function Error() {
   return (
     <div>
       <Helmet>
@@ -12,7 +9,7 @@ export default function Home() {
         <title></title>
         <link rel="canonical" href="" />
       </Helmet>
-      Hello world!
+      404
     </div>
   )
 }

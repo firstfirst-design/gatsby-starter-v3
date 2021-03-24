@@ -2,9 +2,9 @@ import React from "react"
 import styled from "styled-components"
 import { Helmet } from "react-helmet"
 
-const HomeStyle = styled.div``
+const DiclaimerStyle = styled.div``
 
-export default function Home() {
+export default function Disclaimer() {
   return (
     <div>
       <Helmet>
@@ -12,7 +12,7 @@ export default function Home() {
         <title></title>
         <link rel="canonical" href="" />
       </Helmet>
-      Hello world!
+      disclaimer
     </div>
   )
 }
