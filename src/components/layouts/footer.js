@@ -4,5 +4,5 @@ import styled from "styled-components"
 const FooterStyle = styled.div``
 
 export default function Footer() {
-  return <footer>Hello world!</footer>
+  return <footer>Footer</footer>
 }

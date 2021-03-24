@@ -4,5 +4,5 @@ import styled from "styled-components"
 const HeaderStyle = styled.div``
 
 export default function Header() {
-  return <header>Hello world!</header>
+  return <header>Header</header>
 }

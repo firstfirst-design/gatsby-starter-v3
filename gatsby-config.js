@@ -15,9 +15,9 @@ module.exports = {
   flags: { PRESERVE_WEBPACK_CACHE: true },
 
   siteMetadata: {
-    title: "",
-    description: "",
-    url: "",
+    title: "GATSBY V3 Starter",
+    description: "This is my starter template for Gatsby V3",
+    url: "www.starter.com",
   },
 
   plugins: [

@@ -1,15 +1,20 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import styled from "styled-components"
+import PageLayout from "../components/layouts/page-layout"
+import SEO from "../components/seo"
+
+const ErrorStyle = styled.div``
 
 export default function Error() {
   return (
-    <div>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title></title>
-        <link rel="canonical" href="" />
-      </Helmet>
+    <PageLayout>
+      <SEO
+        title="Home"
+        description="This is the homepage for a gatsby website"
+        image="https://placeimg.com/300/300"
+        slug="/"
+      />
       404
-    </div>
+    </PageLayout>
   )
 }
